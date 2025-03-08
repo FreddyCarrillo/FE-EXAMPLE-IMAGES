@@ -1,0 +1,69 @@
+.ctnDropZone {
+  background-color: #80808036;
+  margin: 30px 41px;
+  height: 200px;
+  border-radius: 11px;
+  color: gray;
+}
+
+.ctnDropZone:hover {
+  background-color: #645a5a36;
+}
+
+.dropZone {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderInfo {
+  text-align: center;
+  font-size: 13px;
+}
+
+.ctnLoaderImg {
+  text-align: center;
+}
+
+.ctnCurrentImg {
+  text-align: center;
+}
+
+.ctnCurrentImg img {
+  border-radius: 11px;
+  width: 220px;
+}
+
+.tempImgUploader img {
+  width: 200px;
+  border-radius: 11px;
+}
+
+.ctnPreview {
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+  align-items: center;
+}
+
+.ctnActions {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.ctnActions button {
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ctnActions button:hover {
+  background-color: black;
+  color: white;
+}
