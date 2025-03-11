@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.ctnTableTodo {
+
+  padding: 25px;
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    thead {
+      background-color: #ffaf6d;
+      color: black;
+      font-family: "Oswald" !important;
+  
+      th {
+        font-weight: 300;
+        text-align: left;
+        padding: 10px;
+      }
+  
+      td {
+        padding: 10px;
+        font-weight: bold;
+      }
+    }
+  
+    tbody {
+      font-family: "Oswald" !important;
+      tr {
+        border-bottom: 1px solid #ddd;
+  
+        &:last-child {
+          border-bottom: none;
+        }
+  
+        td {
+          padding: 8px 10px;
+          border-right: 1px solid #ddd;
+          text-align: left;
+          font-weight: 200;
+        }
+      }
+    }
+  
+    th, td {
+      border: 1px solid #ddd;
+    }
+  }
+
+  button {
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+}

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router';
-import UploadImagesPage from './features/UploadImages/UploadImagesPage';
+import { routes } from './navigation/Router';
 
 const App = () => {
   return (
     <Routes>
-      <Route path="/upload-image" element={<UploadImagesPage />} />
+      {routes?.map((route, index)=>(
+        <Route key={index} path={route?.path} element={<route.element />} />
+      ))}
     </Routes>
   )
 }
